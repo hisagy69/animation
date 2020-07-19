@@ -1,0 +1,45 @@
+*, body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.wrap {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.frame {
+	width: 626px;
+	height: 208px;
+	background: url('img/frame1.png') no-repeat center;
+	position: relative;
+	overflow-x: hidden;
+	margin-bottom: 15px;
+}
+.cloud {
+	width: 100%;
+	position: absolute;
+}
+.button {
+	width: 50px;
+	height: 30px;
+	border-radius: 50px;
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
+.start {
+	color: green;
+}
+.start:hover {
+	background:green;
+	color: #fff;;
+}
+.reset {
+	color: red;
+}
+.reset:hover {
+	background: red;
+	color: #ffffff;
+}
